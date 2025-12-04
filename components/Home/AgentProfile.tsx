@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from '../UI/Icon';
 
 const AgentProfile: React.FC = () => {
   return (
@@ -7,19 +8,43 @@ const AgentProfile: React.FC = () => {
         <div className="flex justify-center">
           <img 
             className="rounded-xl shadow-2xl w-full max-w-lg aspect-[4/5] object-cover object-top border border-charcoal-light/30" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMCiXmypCY_MCtxIhYYyT_AzhLOfaGCG68xJ7wqhbpXJdox1bWoR7zhUNf2GWvaT2pWOIvwzQjbZcf1-JbDhg_beEaIytoNR5D5x7-5RU8hOzi00h55icUBaiyQ2a7ajpbi-M_ew2dYEJLowrvIWvfq5ys16LoIWuyAuEp2YjqDe_q5Vc2o3LLVv0n9zSR4t6E7urUUuthq36tIqXKnL9tYR8wUgVoWRoQuLr0HZgbjcVoe_7745AA4mU9L9uGjFhwOKuvWpfv0Q" 
-            alt="Professional headshot of a smiling male real estate agent in a suit." 
+            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80" 
+            alt="Professional headshot of Morgan Tennant" 
           />
         </div>
         <div className="text-center md:text-left">
           <h2 className="text-4xl font-serif-display font-bold tracking-tight text-off-white sm:text-5xl">Your Dedicated Real Estate Partner</h2>
-          <p className="mt-6 text-xl font-sans-body font-medium text-primary">Mr. Alexander Sterling</p>
+          
+          <div className="mt-6 flex flex-col items-center md:items-start">
+             <h3 className="text-2xl font-sans-body font-medium text-primary">Morgan Tennant</h3>
+             <div className="flex items-center gap-2 mt-2">
+                <div className="flex text-gold-accent text-sm">
+                  <Icon name="star" className="text-lg" />
+                  <Icon name="star" className="text-lg" />
+                  <Icon name="star" className="text-lg" />
+                  <Icon name="star" className="text-lg" />
+                  <Icon name="star" className="text-lg" />
+                </div>
+                <span className="text-gray-400 text-sm font-sans-body">5.0 Client Rating</span>
+             </div>
+          </div>
+
           <p className="mt-8 text-lg leading-8 text-gray-300 font-sans-body max-w-xl mx-auto md:mx-0">
-            With extensive local market knowledge and a commitment to understanding your unique goals, Alexander Sterling guides first-time buyers, growing families, and investors alike. He offers personalized support, expert advice, and a smooth journey to achieve your real estate aspirations.
+            Morgan Tennant is a dedicated real estate professional serving the Houston and Galveston areas. Known for her exceptional client service and deep market knowledge, she helps buyers and sellers navigate the complex real estate landscape with ease. Whether you are looking for a luxury city estate or a coastal retreat, Morgan is committed to making your real estate goals a reality.
           </p>
-          <button className="mt-10 flex mx-auto md:mx-0 min-w-[120px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-charcoal-dark text-base font-semibold leading-normal tracking-[0.015em] hover:bg-gold-accent transition-colors shadow-lg">
-            <span className="truncate">Meet Our Team</span>
-          </button>
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+             <a 
+                href="https://www.har.com/morgan-tennant/agent_morgant" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex min-w-[120px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-charcoal-dark text-base font-semibold leading-normal tracking-[0.015em] hover:bg-gold-accent transition-colors shadow-lg"
+             >
+                <span className="truncate">View HAR Profile</span>
+             </a>
+             <button className="flex min-w-[120px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-charcoal-light text-off-white text-base font-semibold leading-normal tracking-[0.015em] hover:bg-charcoal-light/80 transition-colors shadow-lg border border-charcoal-light/50">
+                <span className="truncate">Contact Morgan</span>
+             </button>
+          </div>
         </div>
       </div>
     </section>
