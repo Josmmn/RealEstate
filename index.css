@@ -1,6 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #b8860b;
+  --color-charcoal-dark: #1a1a1a;
+  --color-charcoal-medium: #262626;
+  --color-charcoal-light: #333333;
+  --color-gold-accent: #d4af37;
+  --color-off-white: #f5f5dc;
+  --color-background-dark: #101010;
+
+  --font-family-serif-display: "Cormorant Garamond", serif;
+  --font-family-sans-body: "Poppins", sans-serif;
+
+  --shadow-3xl: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
+}
 
 body {
   background-color: #1a1a1a;
