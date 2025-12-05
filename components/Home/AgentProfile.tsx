@@ -8,7 +8,7 @@ const AgentProfile: React.FC = () => {
         <div className="flex justify-center">
           <img
             className="rounded-xl shadow-2xl w-full max-w-lg aspect-[4/5] object-cover object-top border border-charcoal-light/30"
-            src="/RealEstate/Pictures/realtor.webp"
+            src="Pictures/realtor.webp"
             alt="Professional headshot of Sarah Mitchell"
           />
         </div>
