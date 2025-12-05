@@ -9,14 +9,14 @@ const AgentProfile: React.FC = () => {
           <img
             className="rounded-xl shadow-2xl w-full max-w-lg aspect-[4/5] object-cover object-top border border-charcoal-light/30"
             src="Pictures/realtor.webp"
-            alt="Professional headshot of Sarah Mitchell"
+            alt="Professional headshot of Sarah Jenkins"
           />
         </div>
         <div className="text-center md:text-left">
           <h2 className="text-4xl font-serif-display font-bold tracking-tight text-off-white sm:text-5xl">Your Dedicated Real Estate Partner</h2>
           
           <div className="mt-6 flex flex-col items-center md:items-start">
-             <h3 className="text-2xl font-sans-body font-medium text-primary">Sarah Mitchell</h3>
+             <h3 className="text-2xl font-sans-body font-medium text-primary">Sarah Jenkins</h3>
              <div className="flex items-center gap-2 mt-2">
                 <div className="flex text-gold-accent text-sm">
                   <Icon name="star" className="text-lg" />
@@ -30,7 +30,7 @@ const AgentProfile: React.FC = () => {
           </div>
 
           <p className="mt-8 text-lg leading-8 text-gray-300 font-sans-body max-w-xl mx-auto md:mx-0">
-            Sarah Mitchell is a dedicated real estate professional with over 12 years of experience serving the Houston metropolitan area. Known for her personalized approach and deep market expertise, she helps buyers and sellers navigate the real estate journey with confidence. Whether you're searching for your dream home or looking to sell, Sarah is committed to delivering exceptional results tailored to your unique needs.
+            Sarah Jenkins is a dedicated real estate professional with over 12 years of experience serving the Houston metropolitan area. Known for her personalized approach and deep market expertise, she helps buyers and sellers navigate the real estate journey with confidence. Whether you're searching for your dream home or looking to sell, Sarah is committed to delivering exceptional results tailored to your unique needs.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
              <a
